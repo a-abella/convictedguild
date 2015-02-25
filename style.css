@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,200,500,700,800,900,600);
+
+html {
+
+
+}
+
+body { 
+  /*max-width: 100vw;*/
+  margin: 0px;
+  padding: 0px;
+  /*height: 100%;*/
+  /*overflow-y: visible;*/
+	/*perspective: 1px;
+	transform-style: preserve-3d;*/
+  font-family: "Lato", sans-serif;  
+  color: #333;
+    overflow-x: hidden;
+}
+
+h1 {
+   font-size: 250%;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+a.nav:link,
+a.nav:visited,
+a.nav:active {
+  color: #555555;
+  text-decoration: none;
+}
+
+.woosh {
+  text-decoration: none;
+    display: inline-block;
+    border-bottom: 0px solid #5dfdca;  
+    transition: 0.25s ease;
+}
+
+a.nav:hover {
+  border-bottom: 53px solid #90d7ff; 
+}
+
+a.home{
+  color: #555555;
+  text-decoration: none;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+/*img {
+  position: absolute;
+  top: 60%;
+  left: 77%;
+  width: 500px;
+  height: 500px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%);
+  padding: 10px;
+}*/
+
+.slide:before {
+  content: "";
+  position: static;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(215,215,215, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("killscreens/thogar.jpg");
+   background-attachment: fixed;  
+}
+
+#slide1:before {
+  background-color: white;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide2 {
+  background-image: url("images/orgrimmar.jpg");
+  background-attachment: fixed;
+}
+
+#slide3:before {
+  background-color: white;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide4 {
+  background: #222;
+  min-height: 100vh;
+}

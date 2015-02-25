@@ -1,0 +1,145 @@
+.dk {
+    color: #C41F3B;
+    font-weight: bold;
+}
+.druid {
+    color: #FF7D0A;
+    font-weight: bold;
+}
+.hunt {
+    color: #ABD473;
+    font-weight: bold;
+}
+.mag {
+    color: #69CCF0;
+    font-weight: bold;
+}
+.monk {
+    color: #00FF96;
+    font-weight: bold;
+}
+.pal {
+    color: #F58CBA;
+    font-weight: bold;
+}
+.pri {
+    color: #CCCCCC;
+    font-weight: bold;
+}
+.rog {
+    color: #FFF569;
+    font-weight: bold;
+}
+.sham {
+    color: #0070DE;
+    font-weight: bold;
+}
+.lock {
+    color: #9482C9;
+    font-weight: bold;
+}
+.war {
+    color: #C79C6E;
+    font-weight: bold;
+}
+
+
+.dk, .druid, .hunt, .mag,
+.monk, .pal, .pri, .rog,
+.sham, .lock, .war {
+    text-shadow: 1px 1px rgba(130,130,130,0.6);
+}
+
+td.wow:nth-child(odd) {
+  padding-left: 15px;
+}
+
+td.wow:nth-child(even) {
+  padding-right: 15px;
+}
+
+
+tr.wow:nth-child(even) {
+  background-color: #EEE;
+}
+
+.btn {
+  font-family: Raleway;
+  font-weight: 500;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 1px 1px 5px #a8a8a8;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+  color: #ffffff;
+  font-size: 125%;
+  background: #90d7ff;
+  padding: 10px 147px 10px 147px;
+  text-decoration: none;
+  width: 60px;
+
+}
+
+.btn:hover {
+  background: #5dfdca;
+  text-decoration: none;
+}
+
+.portrait {
+  height: 5.5vw; 
+  width: 5.5vw; 
+  background-size: contain;
+  filter: grayscale(1) brightness(0.6);
+  -webkit-filter: grayscale(1) brightness(0.6);
+  max-height: 115px; 
+  max-width: 115px;
+  min-height: 75px;
+  min-width: 75px;
+  margin-right: 0.5vw; 
+  margin-bottom: 0.5vw; 
+  display: inline-block; 
+  border-radius: 8px; 
+  box-shadow: inset 0px 0px 0px 5px #555;
+}
+
+.portrait:hover{
+  background-size: contain;
+   filter: none;
+   -webkit-filter: none;
+   -moz-filter: none;
+}
+
+.portrait:active{
+  box-shadow: inset 0px 0px 0px 5px #43cca0;
+}
+
+div#preload {
+	display: none;
+	height: 0px;
+	width: 0px;
+}
+
+#lightbox {
+	position: fixed;
+        max-width: 70vw;
+	left: 50vw;
+	top: 10vh;
+	margin-left: -50vw;
+	background: #fff;
+	display: none;
+}
+#lightbox-shadow {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	display: none;
+}
