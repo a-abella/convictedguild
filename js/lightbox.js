@@ -1,47 +1,72 @@
 
-  function lightbox(insertContent, ajaxContentUrl){
+  function lightbox(largePortrait, captionText){
 
-
-	if($('#lightbox').size() == 0){
-		var theLightbox = $('<div id="lightbox"/>');
-		var theShadow = $('<div id="lightbox-shadow"/>');
+    //setup
+	if($("#lightbox").size() == 0){
+		var theLightbox = $('<div id="lightbox" />');
+		var theCaption = $('<div id="caption" />');
+		var theShadow = $('<div id="lightbox-shadow" />');
 		$(theShadow).click(function(e){
 			closeLightbox();
 		});
 		$('body').append(theShadow);
 		$('body').append(theLightbox);
+		$("#lightbox").append(theCaption);
+		
+	}
+	
+	
+	//append image
+	if(largePortrait != null){
+		$("#lightbox").append(largePortrait);
+	}
+	
+	
+	//ajax request for caption text
+	if(captionText != null){
+		$.ajax({
+			type: 'GET',
+			dataType: 'html',
+			url: captionText,
+			cache: false,
+			success:function(data){
+		    	$("#caption").empty();
+				
+				$("#caption").append(data);
+				$("#lightbox").append(theCaption);
+				
+			},
+		});
 	}
 
-
-	$('#lightbox').empty();
-
-	if(insertContent != null){
-		$('#lightbox').append(insertContent);
-	}
-
-
-
-	// move the lightbox to the current window top + 100px
-	//$('#lightbox').css('top', $(window).scrollTop() + 100 + 'px');		
+	
+	//intelligently align	
     $('#lightbox').css('marginLeft', '-' + $('#lightbox').width() / 2 + 'px');
+	$('#lightbox').css('marginTop', '-' + $('#lightbox').height() / 2 + 'px');
 
-// display the lightbox
-$('#lightbox-shadow').fadeIn('fast', function(){
-$('#lightbox').fadeIn('fast');
-$('body').css('overflow-y','hidden');
-});
-
+	
+    //spawn and fade in
+	$('#lightbox-shadow').fadeIn('fast', function(){
+		$('#lightbox').fadeIn(3000);
+		$('#caption').fadeIn(3000);
+		
+		$('body').css('overflow-y','hidden');
+	});
 }
+
 
 // close the lightbox
 function closeLightbox(){
 
-	// hide lightbox and shadow <div/>'s
+
+	// hide lightbox, caption, and shadow
+	$('#caption').hide();
 	$('#lightbox').hide();
 	$('#lightbox-shadow').fadeOut(375);
 	$('body').css('overflowY','scroll');
 
-	// remove contents of lightbox in case a video or other content is actively playing
-	$('#lightbox').empty();
+	
+	// clear contents
+	$('#lightbox').remove();
   }
 

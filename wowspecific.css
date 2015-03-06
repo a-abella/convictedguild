@@ -1,47 +1,121 @@
 .dk {
     color: #C41F3B;
     font-weight: bold;
+	border-color:#C41F3B;	
 }
+
+/*.portrait.dk:active {
+	box-shadow: inset 0px 0px 0px 5px #C41F3B;
+}*/
+
 .druid {
     color: #FF7D0A;
     font-weight: bold;
+	border-color: #FF7D0A;
 }
+
+/*.portrait.druid:active {
+	box-shadow: inset 0px 0px 0px 5px #FF7D0A;
+}*/
+
 .hunt {
     color: #ABD473;
     font-weight: bold;
+	border-color: #ABD473;
+
 }
+
+/*.portrait.hunt:active {
+	box-shadow: inset 0px 0px 0px 5px #ABD473;
+}*/
+
 .mag {
     color: #69CCF0;
     font-weight: bold;
+	border-color: #69CCF0;
+
 }
+
+/*.portrait.mag:active {
+	box-shadow: inset 0px 0px 0px 5px #69CCF0;
+}*/
+
 .monk {
     color: #00FF96;
     font-weight: bold;
+	border-color: #00FF96;
+
 }
+
+/*.portrait.monk:active {
+	box-shadow: inset 0px 0px 0px 5px #00FF96;
+}*/
+
 .pal {
     color: #F58CBA;
     font-weight: bold;
+	border-color: #F58CBA;
+
 }
+
+/*.portrait.pal:active {
+	box-shadow: inset 0px 0px 0px 5px #F58CBA;
+}*/
+
 .pri {
     color: #CCCCCC;
     font-weight: bold;
+	border-color: #CCCCCC;
+
 }
+
+/*.portrait.pri:active {
+	box-shadow: inset 0px 0px 0px 5px #CCCCCC;
+}*/
+
 .rog {
     color: #FFF569;
     font-weight: bold;
+	border-color: #FFF569;
+
 }
+
+/*.portrait.rog:active {
+	box-shadow: inset 0px 0px 0px 5px #FFF569;
+}*/
+
 .sham {
     color: #0070DE;
     font-weight: bold;
+	border-color: #0070DE;
+
 }
+
+/*.portrait.sham:active {
+	box-shadow: inset 0px 0px 0px 5px #0070DE;
+}*/
+
 .lock {
     color: #9482C9;
     font-weight: bold;
+	border-color: #9482C9;
+
 }
+
+/*.portrait.lock:active {
+	box-shadow: inset 0px 0px 0px 5px #9482C9;
+}*/
+
 .war {
     color: #C79C6E;
     font-weight: bold;
+	border-color: #C79C6E;
+
 }
+
+/*.portrait.war:active {
+	box-shadow: inset 0px 0px 0px 5px #C79C6E;
+}*/
 
 
 .dk, .druid, .hunt, .mag,
@@ -78,7 +152,7 @@ tr.wow:nth-child(even) {
   background: #90d7ff;
   padding: 10px 147px 10px 147px;
   text-decoration: none;
-  width: 60px;
+  width: 80px;
 
 }
 
@@ -102,6 +176,7 @@ tr.wow:nth-child(even) {
   display: inline-block; 
   border-radius: 8px; 
   box-shadow: inset 0px 0px 0px 5px #555;
+  position: relative;
 }
 
 .portrait:hover{
@@ -115,21 +190,139 @@ tr.wow:nth-child(even) {
   box-shadow: inset 0px 0px 0px 5px #43cca0;
 }
 
+.portname {
+  position: absolute; 
+  width: calc(5.5vw - 10px); 
+  max-width: 105px; 
+  max-height: 30px; 
+  min-width: 65px; 
+  text-align: center; 
+  bottom: 5px; 
+  padding-bottom: 0.85vh; 
+  padding-top: 0.5vh; 
+  background: rgba(0,0,0,0.6); 
+  left: 5px; 
+  font-size: 1.75vh;
+  opacity: 0;
+  transition: opacity 0.5s ease 0.2s;
+  text-shadow: none;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.portrait:hover > .portname {
+  transition: opacity 0.375s ease 0.5s;
+  opacity: 1;
+
+}
+
+.portfit{
+	max-width: 70vw;
+	border: 1px solid #6B6B6B;
+}
+
 div#preload {
 	display: none;
 	height: 0px;
 	width: 0px;
 }
 
+#caption {
+    position: absolute;
+	z-index: 9;
+    font-size: 85%;
+    cursor: default;
+	bottom: 2px;
+	width: auto;
+	height: auto;
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	/*border-top: 1px solid #6B6B6B;*/
+    padding: 20px;
+    /*padding-top: 30px;
+    padding-bottom: 30x;*/
+	opacity: 0;
+	transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+    -webkit-transition: opacity .5s ease;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 2px;
+}
+
+#caphead {
+	display: inline-block;
+    font-family: Raleway;
+    font-size: 165%;
+    font-weight: 500;
+    /*margin-bottom: 25px;*/
+    text-shadow: none;
+}
+
+#capspec {
+	display: inline-block;
+	font-family: Lato;
+	font-size: 90%;
+	margin-left: 3px;
+	font-weight: 400;
+	color: #ccc;
+}
+
+#capleft {
+	display: table-cell;
+	width: 75%;
+	padding-right: 3vw;
+	vertical-align: middle;
+}
+
+#capright {
+	display: table-cell;
+	width: auto;
+	padding-left: 3vw;
+	vertical-align: middle;
+	
+}
+
+#capbar {
+	position: relative;
+	display: table-cell;
+	width: 1px;
+	background-color: rgba(255,255,255,0.4);
+	height:  100%;
+}
+
+#caplist > li {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#caplink:link,
+#caplink:visited,
+#caplink:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#caplink:hover {
+	color: #00e595;
+}
+
+#lightbox:hover > #caption {
+	opacity: 1;
+}
+
 #lightbox {
 	position: fixed;
-        max-width: 70vw;
+	height: auto;
 	left: 50vw;
-	top: 10vh;
+	/*top: 5vh;*/
 	margin-left: -50vw;
-	background: #fff;
-	display: none;
+	top: 50vh;
+	margin-top: -50vh;
+	display: hidden;
+	
 }
+
 #lightbox-shadow {
 	position: fixed;
 	left: 0;
@@ -142,4 +335,121 @@ div#preload {
 	-khtml-opacity: 0.75;
 	opacity: 0.75;
 	display: none;
+}
+
+.gridcontain{
+	margin: 0 auto;
+	width: auto;
+	max-width: 760px;
+	height: auto;
+	max-height: 760px;
+}
+
+.contact {
+	
+	border: 10px solid #171717;
+	border-radius: 10px;
+	height: 26vh;
+	width: 26vh;
+	max-height: 400px;
+	max-width: 400px;
+	min-width: 225px;
+	min-height: 225px;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 14pt;
+	cursor: default;
+	
+}
+
+.upswipe {
+	height: 100%;
+	transition: 0.3s ease;
+	background-size: cover;
+	
+}
+
+.contact:hover > .upswipe {
+	height: 0px;
+}
+
+.rsvphead {
+	padding-top: 1.65vh;
+	padding-bottom: 0.5vh;
+	font-size: 3vh;
+	text-shadow: 1px 1px 1px rgba(60, 60, 60, 1);
+}
+
+.rsvptitle {
+
+	padding-bottom: 2.1vh;
+	font-size: 2vh;
+	text-shadow: 1px 1px 1px rgba(60, 60, 60, 1);
+}
+
+.rsvpbody {
+	font-size: 2vh;
+	text-shadow: 1px 1px 1px rgba(60, 60, 60, 1);
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#teeze {
+	background-image: url("/contact/Teeze.png");
+}
+
+#zoid {
+	background-image: url("/contact/Zoidberg.png");
+}
+
+#sneww {
+	background-image: url("/contact/Sneww.png");
+}
+
+#tore {
+	background-image: url("/contact/Tore.png");
+}
+
+#contTeeze {
+	
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #BB5D07;
+	transition: 0.3s ease;
+}
+
+#contTeeze:hover {
+	border-color: #FF7D0A;
+}
+
+#contZoid {
+	
+	margin-bottom: 10px;
+	transition: 0.3s ease;
+	background-color: #00CC96;
+}
+
+#contZoid:hover {
+	border-color: #00FF96;
+
+}
+
+#contSneww {
+	
+	margin-right: 10px;
+	background-color: #49ACD0;
+	transition: 0.3s ease;
+}
+
+#contSneww:hover {
+	border-color: #69CCF0;;
+}
+
+#contTore {
+	background-color: #00307E;
+	transition: 0.3s ease;
+}
+
+#contTore:hover {
+	border-color: #0070DE;
 }

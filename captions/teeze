@@ -1,0 +1,20 @@
+<span class="druid" id="caphead">Teeze</span><span id="capspec">restoration</span>
+<div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
+	<div id="capleft">
+
+		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+
+	</div>
+
+	<div id="capbar"></div>
+
+	<div id="capright">
+	
+		<ul id="caplist">
+			<li><span style="color: gold;">Founded February 2009</span></li>
+			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Teeze/simple" target="_blank">Armory</a></li>
+		</ul>
+	
+	</div>
+
+</div>

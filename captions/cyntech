@@ -1,0 +1,21 @@
+<span class="pri" id="caphead">Cyntech</span><span id="capspec">shadow</span>
+
+<div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
+	<div id="capleft">
+
+		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+
+	</div>
+
+	<div id="capbar"></div>
+
+	<div id="capright">
+	
+		<ul id="caplist">
+			<li>Joined December 2012</li>
+			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Cyntech/simple" target="_blank">Armory</a></li>
+		</ul>
+	
+	</div>
+
+</div>
