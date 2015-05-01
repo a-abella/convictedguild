@@ -39,7 +39,6 @@
 		});
 	}
 
-	
 	//intelligently align	
     $('#lightbox').css('marginLeft', '-' + $('#lightbox').width() / 2 + 'px');
 	$('#lightbox').css('marginTop', '-' + $('#lightbox').height() / 2 + 'px');
@@ -53,6 +52,13 @@
 		$('body').css('overflow-y','hidden');
 	});
 }
+
+		$('#joinuslink').click(function(){
+			$('html, body').animate({
+				scrollTop: $('#slide3').offset().top
+			}, 500);
+			closeLightbox();
+		});
 
 
 // close the lightbox

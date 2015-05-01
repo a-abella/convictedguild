@@ -1,8 +1,8 @@
 <span class="monk" id="caphead">Thecolorblue</span><span id="capspec">mistweaver</span>
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
-	<div id="capleft">
+	<div id="capleft" style="width: 82%">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		I am Blue.<br /><br />I do what I want.<br /><br />You can't stop me.
 
 	</div>
 
@@ -12,7 +12,7 @@
 	
 		<ul id="caplist">
 			<li>Joined January 2015</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Thecolorblue/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Thecolorblue/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

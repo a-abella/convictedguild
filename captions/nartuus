@@ -2,7 +2,7 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Beginning his WoW career in the closed beta from the ripe age of 12, Nartuus has literally grown up slaying dragons. From the very start he was told he would never be able to compete with the best. He was 12 so he was like "fk that guy," and set out to prove him wrong. Starting out so young in the volatile world of the Internet, he worked twice as hard to be just as good as his peers. With each new dragon slain he grew one more chest hair towards manhood and the pride that goes with it. As he grew older he had begun to lose hope of ever finding worthy adversaries. His search ended in 2015 with Convicted, a guild worthy of his meter padding prowess. Here he waits, manly as ever, for new dragons ready to be slain. 
 
 	</div>
 
@@ -12,7 +12,7 @@
 	
 		<ul id="caplist">
 			<li>Joined February 2015</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Nartuus/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Nartuus/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

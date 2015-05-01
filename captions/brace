@@ -3,7 +3,7 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Murse. Was the guild's number one douchenozzle for years, up until Yoek poked his fuzzy horeshoe head into the mix. Momentarily shows glimpses of human emotion when talking about a bad day at work. 
 
 	</div>
 
@@ -13,7 +13,7 @@
 	
 		<ul id="caplist">
 			<li>Joined April 2010</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Br%C3%A5cewar/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Br%C3%A5cewar/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

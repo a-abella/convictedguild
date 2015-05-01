@@ -2,7 +2,9 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Stumbling upon World of Warcraft and began his adventure as an Elemental Shaman in late WotLK. Not starting his raiding experience until early Cataclysm, he continued to learn and love his spec while downing Ragnaros and Deathwing in the guild Resurgence on Korgath before transferring back to play with friends on Garona.<br /><br />
+Not long after starting Heroic Dragon Soul he left for boot camp in Cape May, NJ where he began his career in the Coast Guard. Upon arriving to Delaware in early 2012 he began once again playing with his friends and began raiding again in WoD. After going 6/7H in Highmaul and failing to muster a kill on Imperator he began to look elsewhere and found Convicted on Korgath. Joining in early 2015 he earned a spot as raider and continues to contribute to progression kills as they work towards Mythic. 
+
 
 	</div>
 
@@ -12,7 +14,7 @@
 	
 		<ul id="caplist">
 			<li>Joined February 2015</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Shamd/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Shamd/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

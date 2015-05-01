@@ -1,0 +1,18 @@
+<script>
+	$('#joinuslink').click(function(){
+		$('html, body').animate({
+			scrollTop: $('#slide3').offset().top
+		}, 750);
+	$('#caption').hide();
+	$('#lightbox').hide();
+	$('#lightbox-shadow').fadeOut(375);
+	$('body').css('overflowY','scroll');
+	$('#lightbox').remove();
+	});
+</script>
+
+<div style="display: table;  padding: 1rem 3rem; font-size: 1rem">
+	<div style="display: table-cell; vertical-align: middle; text-align: center;">
+		We're always looking for quality players to build our core. If you like what you see, <a id="joinuslink" class="caplink" style="text-decoration: underline">put in an application!</a>
+	</div>
+</div>

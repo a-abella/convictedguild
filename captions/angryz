@@ -2,7 +2,7 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		<a class="caplink" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a>
 
 	</div>
 
@@ -12,7 +12,7 @@
 	
 		<ul id="caplist">
 			<li>Joined January 2015</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Angryz/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Angryz/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

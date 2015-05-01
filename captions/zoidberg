@@ -3,7 +3,8 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		After coming over to WoW at launch from FFXI with real life friends, Zoidberg raided throughout vanilla and TBC with a server top guild here on Korgath. Splitting away from that guild, he landed himself in a leadership role within a guild created with friends. He led this guild to server second Ulduar drake, only losing to Gentlemens Club by a few hours. From there, his services as a raid leader brought him to Convicted, at first just to help out. Shortly thereafter, he became attached to the members and he decided he wanted to establish his roots in Convicted in 2009.<br><br>
+When not playing WoW or working, he likes to go camping with his fiancee and their brood of dogs, as well as dominating weekly trivia at a local bar.
 
 	</div>
 
@@ -13,7 +14,7 @@
 	
 		<ul id="caplist">
 			<li>Joined August 2009</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Zoidberg/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Zoidberg/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

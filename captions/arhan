@@ -2,7 +2,9 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Starting his MMO career in Everquest 1 in 2002 as a Ranger, he quickly raised his rank to raid leader/senior officer and lead a successful semi hardcore raiding guild in Everquest extending to Everquest 2 for 7 years.<br /><br />
+
+Upon burning out...he began looking for a more relaxing approach to raiding. Trying a new game with a fresh start with a few close friends. He tried several guilds before he found Convicted in wotlk era, where he earned raider status. He still enjoys and has fun with them to this day as one of their main and most loyal Hunters.
 
 	</div>
 
@@ -12,7 +14,7 @@
 	
 		<ul id="caplist">
 			<li>Joined August 2009</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Arhan/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Arhan/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

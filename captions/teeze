@@ -2,7 +2,9 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Beginning her MMO career as a Shaman in TBC, Teeze lightning bolted and danced her way through Kael'thas, tossed Vashj's filthy Tainted Core one time too many and died in various awkward ways trying to float like a feather before making the impulsive decision to transfer to Korgath. In early 2009, Teeze founded Convicted and retired her Shaman to focus on her fancy healing Druid, as requested by her fellow guild-mates. She remained Guild Leader for over five years, cut short only due to starting her new career, before returning in late 2014 for Warlords of Draenor. <br><br>
+
+Now, as a full-time elementary school teacher, she has limited time to devote to a personal life. Most of that leisure time involves weekly trivia with <u>many</u> drinks, playing and spending time with her pack of dogs and enjoying some needed down time online.
 
 	</div>
 
@@ -11,8 +13,8 @@
 	<div id="capright">
 	
 		<ul id="caplist">
-			<li><span style="color: gold;">Founded February 2009</span></li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Teeze/simple" target="_blank">Armory</a></li>
+			<li><span style="color: gold;">Founded January 2009</span></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Teeze/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

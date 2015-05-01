@@ -1,9 +1,9 @@
 <span class="pri" id="caphead">Cyntech</span><span id="capspec">shadow</span>
 
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
-	<div id="capleft">
+	<div id="capleft" style="width:81.5%">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		This person is boring and hasn't made a caption for themselves so this is all you get.
 
 	</div>
 
@@ -13,7 +13,7 @@
 	
 		<ul id="caplist">
 			<li>Joined December 2012</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Cyntech/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Cyntech/simple" target="_blank">Armory</a></li>
 		</ul>
 	
 	</div>

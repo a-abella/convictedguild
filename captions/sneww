@@ -2,7 +2,7 @@
 <div style="display: inline-table; overflow: show; margin-top: 20px; margin-bottom: 10px;">
 	<div id="capleft">
 
-		This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text. This is test text.
+		Core raider and lone Boomkin through all of Wrath of the Lich King. Rerolled to mage for Warlords of Draenor. Working full time while finishing up a degree in mechanical engineering. Builds VW engines and show cars in his spare time.
 
 	</div>
 
@@ -12,7 +12,8 @@
 	
 		<ul id="caplist">
 			<li>Joined April 2009</li>
-			<li><a id="caplink" href="http://us.battle.net/wow/en/character/korgath/Sn%C3%ABww/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://us.battle.net/wow/en/character/korgath/Sn%C3%ABww/simple" target="_blank">Armory</a></li>
+			<li><a class="caplink" href="http://www.twitch.tv/mk3_vdub/" target="_blank">Stream</a></li>
 		</ul>
 	
 	</div>
