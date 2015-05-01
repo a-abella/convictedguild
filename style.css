@@ -56,6 +56,60 @@ p {
   background-color: #5dfdca;
 }
 
+#navwrap {
+  float: right; 
+  margin-right: 6vw; 
+  display: inline-block; 
+  margin-top: -83px; 
+  font-weight: 300; 
+  font-size: 190%; 
+  font-family: Raleway;
+}
+
+#forum{
+  background-color: #FFFFFF; 
+  height: 43px; 
+  width: 130px; 
+  display: inline-block; 
+  margin-left: 10px; 
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 3px;
+}
+
+#logs{
+  background-color: #FFFFFF; 
+  height: 43px; 
+  width: 130px; 
+  display: inline-block; 
+  margin-left: -16px; 
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 3px;
+}
+
+#apply{
+  background-color: #FFFFFF; 
+  height: 43px; 
+  width: 145px; 
+  display: inline-block; 
+  margin-left: -25px; 
+  text-align: center;  
+  padding-top: 10px; 
+  padding-bottom: 3px;
+}
+
+#contact{
+  background-color: #FFFFFF; 
+  height: 43px; 
+  width: 130px; 
+  display: inline-block; 
+  margin-left: -5px; 
+  text-align: center;  
+  padding-top: 10px; 
+  padding-bottom: 3px;
+}
+
 a.nav:link,
 a.nav:visited,
 a.nav:active {
@@ -77,6 +131,76 @@ a.nav:hover {
 a.home{
   color: #555555;
   text-decoration: none;
+}
+
+.container {
+  position: absolute;
+}
+
+#banner {
+  position: absolute; 
+  width: 100%; 
+  top: 0px; 
+  z-index: 0; 
+  margin-bottom: -200px;
+}
+
+.bannerback {
+  height: 150px; 
+  background: #FFFFFF; 
+  color: #555555; 
+  margin: 0px; 
+  padding-left: 10vw; 
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+}
+
+#headlogo{
+  float: left; 
+  position: absolute; 
+  top: -3px; 
+  margin-left: -50px;
+}
+
+#infowrap {
+  width: 350px; 
+  margin-right: 60%; 
+  height: 150px; 
+  display: inline-block; 
+  margin-top: -15px; 
+}
+
+#infowrapinner{
+  display: inline-block; 
+  padding-right: 10px; 
+  padding-left: 140px;
+}
+
+#gname{
+  font-size: 500%; 
+  font-weight: 300; 
+  margin-top: 10px; 
+  font-family: Oswald;
+}
+
+#ginfo{
+  padding-left: 26px; 
+  font-size: 150%; 
+  margin-top: -10px; 
+  font-weight: 300;
+}
+
+#faction{
+  display: inline-block; 
+  margin-right: 25px;
+}
+
+#realm{
+  display: inline-block;
+}
+
+#progress{
+  display: inline-block; 
+  margin-left: 25px;
 }
 
 .contwoosh {
@@ -113,6 +237,17 @@ a.cont:hover {
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+
+a.mobile:link,
+a.mobile:visited,
+a.mobile:active {
+	text-decoration: none;
+	color: #999;
+}
+
+a.mobile:hover {
+	text-decoration: underline;
 }
 
 .slide {
@@ -173,8 +308,12 @@ a.cont:hover {
   text-shadow: 0 2px 2px #000;
 }
 
+#slidebump{
+  margin-top: 150px;
+}
+
 #title {
-  background-image: url("killscreens/maidens.jpg");
+  background-image: url("killscreens/m_oregorger.jpg");
    background-attachment: fixed;
 	background-color: #000011;
 }
@@ -185,9 +324,42 @@ a.cont:hover {
   z-index:-1;
 }
 
+.slide1pad{
+  padding: 20vh 6%;
+}
+
+#slide1table{
+  display: table-cell;
+}
+
+#raidercontainer{
+  display: table-cell; 
+  width: 35vw; 
+  margin-bottom: 30vh; 
+  padding-left: 6vw; 
+  padding-top: 3vh;
+}
+
 #slide2 {
   background-image: url("images/orgrimmar.jpg");
   background-attachment: fixed;
+}
+
+.slide2pad{
+  padding: 20vh 10%;
+}
+
+#schedulecontainer {
+  width: 100%; 
+  margin-left: 25%; 
+  margin-top: 30px; 
+  margin-bottom: -2vh;
+}
+
+.schedulecell{
+  padding-right: 40px; 
+  font-family: Raleway; 
+  font-weight: 600;
 }
 
 #slide3:before {
@@ -196,7 +368,83 @@ a.cont:hover {
   z-index:-1;
 }
 
+#posterwrap{
+  float: right;
+}
+
+#posterback {
+  padding-top: 0.3vh; 
+  margin-right: 1.5vw; 
+  background-color: #E6E6E6; 
+  margin-top: 1.5vh; 
+  padding-bottom: 0.3vh; 
+  border-radius: 5px; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#posterhead {
+  text-align: center; 
+  font-family: Oswald; 
+  margin-bottom: 1.75vh; 
+  font-size: 200%;
+}
+
+#postertable {
+  font-size: 125%; 
+  border-collapse: collapse; 
+  width: 400px;
+}
+
+.btnmargin {
+  margin-left: 0px; 
+  margin-top: 2vh;
+}
+
 #slide4 {
   background: #222;
   min-height: 100vh;
+}
+
+#contacthead{
+  margin-top: -20vh; 
+  font-weight: 300;
+}
+
+.altcharleft {
+  display: inline-block;
+  padding-right: 5px
+}
+
+.altcharright {
+  display: inline-block;
+}
+
+#contactlinkscontainer {
+  font-family: Raleway; 
+  height: 105px;
+}
+
+#dropusaline {
+  margin-top: 5vh; 
+  margin-bottom: 5vh;
+}
+
+#botforum {
+  margin-right: 4vw; 
+  display: inline-block;
+}
+
+#botfacebook {
+  margin-right: 5vw; 
+  display: inline-block;
+}
+
+#botemail {
+  display: inline-block;
+}
+
+#mobilelink {
+  font-size: 80%; 
+  margin-top: 5vh; 
+  color: #999;
 }

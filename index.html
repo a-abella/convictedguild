@@ -1,335 +1,326 @@
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	
-	<script type="text/javascript" src="/js/lightbox.js"></script>
-		
-	<title>Convicted, a raiding guild - US-Korgath 8/10H</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<link href="wowspecific.css" rel="stylesheet" type="text/css">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-</head>
-<body>
+    <head>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        
+        <script type="text/javascript" src="/js/lightbox.js"></script>
+        
+        <title>Convicted, a raiding guild - US-Korgath 2/10M</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="wowspecific.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <script>
+        if ($( window ).width() < 1165) {
+            document.location = "http://m.convictedguild.com";
+        }
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                 var target = $(this.hash);
+                 target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $("body,html").animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                    }
+                }
+            });
+        });
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $('#up').fadeIn(750);
+            }
+            else {
+                $('#up').fadeOut(250);
+            }
+        });
+        </script>
+        <div>
+            <div id="banner">
+                <div class="bannerback">
+                    
+                    <a href="/" class="home">
+                        <div id="headlogo"><img src="images/modernsquareSMALL.png"></img></div>
+                        <div id="infowrap">
+                            <div id="infowrapinner">
+                                <div id="gname">&lt;Convicted&gt;</div>
+                                
+                                <div id="ginfo">
+                                    <div id="faction">Horde</div>
+                                    <div id="realm">Korgath</div>
+                                    <div id="progress">2/10M</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <div id="navwrap">
+                        <div id="forum" >
+                            <a href="http://conviction.omgforum.net/forum" class="nav woosh">Forum</a>
+                        </div>
+                        
+                        <div id="logs">
+                            <a href="https://www.warcraftlogs.com/guilds/22927/" class="nav woosh">Logs</a>
+                        </div>
+                        
+                        <div id="apply">
+                            <a href="#slide3" class="nav woosh">Apply</a>
+                        </div>
+                        
+                        <div id="contact">
+                            <a href="#slide4" class="nav woosh">Contact</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <div id="slidebump">
+                <div id="title" class="slide header"></div>
+                <div id="slide1" class="slide1pad slide">
+                    <div id="slide1table" class="title">
+                        <h1>We are Convicted</h1>
+                        <p>Six years ago a group of strangers came together to kill bosses and have fun. We climbed the ranks of a competitive realm and fought for prestige and glory, earning our highest accolade of a US Top 40 kill. Through the years these strangers became friends, and the guild became a home. Half a decade later, we continue to forge ahead with the same objective in mind: to kill bosses, and to have fun.</p>
+                    </div>
+                    
+                    <div id="raidercontainer">
+                        
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/teeze_large.jpg&quot; class=&quot;portfit&quot; />','/captions/teeze');"><div class="portrait druid" style="background-image: url('portraits/teeze_troll.png');"><div class="portname">Teeze</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/zoidberg_large.jpg&quot; class=&quot;portfit&quot; />','/captions/zoidberg');"><div class="portrait monk" style="background-image: url('portraits/zoidberg_undead.png');"><div class="portname">Zoidberg</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/tore_large.jpg&quot; class=&quot;portfit&quot; />','/captions/tore');"><div class="portrait sham" style="background-image: url('portraits/tore_orc.png');"><div class="portname">Tore</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/sneww_large.jpg&quot; class=&quot;portfit&quot; />','/captions/sneww');"><div class="portrait mag" style="background-image: url('portraits/sneww_belf.png');"><div class="portname">Sn&euml;ww</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/maltheius_large.jpg&quot; class=&quot;portfit&quot; />','/captions/maltheius');"><div class="portrait pal" style="background-image: url('portraits/mal_belf.png');"><div class="portname">Maltheius</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/brace_large.jpg&quot; class=&quot;portfit&quot; />','/captions/brace');"><div class="portrait pri" style="background-image: url('portraits/brace_goblin.png');"><div class="portname">Br&aring;ce</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/kame_large.jpg&quot; class=&quot;portfit&quot; />','/captions/kame');"><div class="portrait pri" style="background-image: url('portraits/kame_belf.png');"><div class="portname">Kame</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/tyg_large.jpg&quot; class=&quot;portfit&quot; />','/captions/tygrendal');"><div class="portrait dk" style="background-image: url('portraits/tyg_orc.png');"><div class="portname">Tyg</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/hamsteak_large.jpg&quot; class=&quot;portfit&quot; />','/captions/hamsteak');"><div class="portrait sham" style="background-image: url('portraits/hamsteak_tau.png');"><div class="portname">Hamsteak</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/shamd_large.jpg&quot; class=&quot;portfit&quot; />','/captions/shamd');"><div class="portrait sham" style="background-image: url('portraits/shamd_tau.png');"><div class="portname">Shamd</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/cyntech_large.jpg&quot; class=&quot;portfit&quot; />','/captions/cyntech');"><div class="portrait pri" style="background-image: url('portraits/cyntech_undead.png');"><div class="portname">Cyntech</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/awna_large.jpg&quot; class=&quot;portfit&quot; />','/captions/awna');"><div class="portrait druid" style="background-image: url('portraits/awna_cat.png');"><div class="portname">Awna</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/blue_large.jpg&quot; class=&quot;portfit&quot; />','/captions/thecolorblue');"><div class="portrait monk" style="background-image: url('portraits/blue_panda.png');"><div class="portname">Blue</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/dknoobs_large.jpg&quot; class=&quot;portfit&quot; />','/captions/dknoobs');"><div class="portrait dk" style="background-image: url('portraits/dknoobs_orc.png');"><div class="portname">Dknoobs</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/goodlock_large.jpg&quot; class=&quot;portfit&quot; />','/captions/goodlock');"><div class="portrait lock" style="background-image: url('portraits/goodlock_orc.png');"><div class="portname">Chyaad</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/yoek_large.jpg&quot; class=&quot;portfit&quot; />','/captions/yoek');"><div class="portrait war" style="background-image: url('portraits/yoek_orc.png');"><div class="portname">Dink</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/nartuus_large.jpg&quot; class=&quot;portfit&quot; />','/captions/nartuus');"><div class="portrait mag" style="background-image: url('portraits/nartuus_troll.png');"><div class="portname">Nartuus</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/arhan_large.jpg&quot; class=&quot;portfit&quot; />','/captions/arhan');"><div class="portrait hunt" style="background-image: url('portraits/arhan_belf.png');"><div class="portname">Arhan</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/angryz_large.jpg&quot; class=&quot;portfit&quot; />','/captions/angryz');"><div class="portrait war" style="background-image: url('portraits/angryz_orc.png');"><div class="portname">Angryz</div></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/joinus.jpg&quot; class=&quot;portfit&quot; />','/captions/joinus');"><div class="portrait" style="background-image: url('portraits/malesil1.png');"></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/joinus.jpg&quot; class=&quot;portfit&quot; />','/captions/joinus');"><div class="portrait" style="background-image: url('portraits/femalesil1.png');"></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/joinus.jpg&quot; class=&quot;portfit&quot; />','/captions/joinus');"><div class="portrait" style="background-image: url('portraits/malesil2.png');"></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/joinus.jpg&quot; class=&quot;portfit&quot; />','/captions/joinus');"><div class="portrait" style="background-image: url('portraits/femalesil1.png');"></div></a>
+                        <a href="javascript:lightbox('<img src=&quot;/portraits/joinus.jpg&quot; class=&quot;portfit&quot; />','/captions/joinus');"><div class="portrait" style="background-image: url('portraits/malesil1.png');"></div></a>
+                        
+                    </div>
+                    
+                </div>
+                <div id="slide2" class="slide2pad slide">
+                    <div class="title">
+                        <h1>Progression on a casual schedule</h1>
+                        <p>Sacrificing your weeknights and putting in endless hours of progression for a chance at realm-first? We've been there, done that, and frankly we don't miss it. Today we raid on a two day schedule for a mere seven hours per week. Think it's not enough time to progress? We'll prove you wrong.</p>
+                        
+                        <div id="schedulecontainer">
+                            <table style="font-size: 130%;">
+                                <tr>
+                                    <td class="schedulecell">Tuesday</td>
+                                    <td>7:30pm-10:30pm CST</td>
+                                </tr>
+                                <tr>
+                                    <td class="schedulecell">Sunday</td>
+                                    <td>6:30pm-10:30pm CST</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide3" class="slide">
+                    <div id="posterwrap">
+                        <div id="posterback">
+                            <div id="posterhead">Openings</div>
+                            <table id="postertable">
+                                <tr class="wow">
+                                    <td class="dk wow" style="padding-right: 20px">Death Knight:</td>
+                                    <td class="wow">---</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="druid wow">Druid:</td>
+                                    <td class="wow">Balance, Resto</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="hunt wow">Hunter:</td>
+                                    <td class="wow">Open</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="mag wow">Mage:</td>
+                                    <td class="wow">---</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="monk wow">Monk:</td>
+                                    <td class="wow">Windwalker, Mistweaver</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="pal wow">Paladin:</td>
+                                    <td class="wow">Retribution</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="pri wow">Priest:</td>
+                                    <td class="wow">---</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="rog wow">Rogue:</td>
+                                    <td class="wow">Open 1-2x</td>
+                                </tr>
+                                <tr>
+                                    <td class="sham wow">Shaman:</td>
+                                    <td class="wow">Resto w/ Ele OS</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="lock wow">Warlock:</td>
+                                    <td class="wow">Open</td>
+                                </tr>
+                                <tr class="wow">
+                                    <td class="war wow">Warrior:</td>
+                                    <td class="wow">Arms, Fury</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="/application/app.php" style="text-decoration: none;"><div class="btnmargin btn">Apply!</div></a>
+                    </div>
+                    <div class="title">
+                        <h1>Join our family</h1>
+                        <p>If you join us you won't find a group of strangers strung together from trade chat, you'll find a group of friends that have progressed together for years. We have the skills to advance through challenging content and the experience to guide us forward. And the best part of our family is that there's always room for more.</p>
+                    </div>
+                </div>
+                <div id="slide4" class="slide header">
+                    <h1 id="contacthead">Contact Us</h1>
+                    
+                    <div class="gridcontain">
+                        
+                        <div id="contTeeze" class="contact">
+                            <div id="teeze" class="upswipe">
+                            </div>
+                            
+                            <div class="rsvphead">
+                                Teeze
+                            </div>
+                            <div class="rsvptitle">
+                                GM
+                            </div>
+                            
+                            <div class="rsvpbody">
+                                Real ID: Teeze#1321
+                                <br><br>
+                                Alternate Characters:<br>
+                                <div class="altcharleft" style="color: #CCC;">Sainne</div>
+                                <div class="altcharright" style="color: #F58CBA;">Ceani</div>
+                            </div>
+                        </div>
+                        
+                        <div id="contZoid" class="contact">
+                            <div id="zoid" class="upswipe">
+                            </div>
+                            
+                            <div class="rsvphead">
+                                Zoidberg
+                            </div>
+                            <div class="rsvptitle">
+                                Co-GM
+                            </div>
+                            
+                            <div class="rsvpbody">
+                                Real ID: Shinebox#1762
+                                <br><br>
+                                Alternate Characters:<br>
+                                <div class="altcharleft" style="color: #E9E9E9;">Shynebox</div>
+                                <div class="altcharright" style="color: #0070DE">Roomcat</div>
+                            </div>
+                        </div>
+                        
+                        <div id="contSneww" class="contact">
+                            <div id="sneww" class="upswipe">
+                            </div>
+                            
+                            <div class="rsvphead">
+                                Sn&euml;ww
+                            </div>
+                            <div class="rsvptitle">
+                                Officer
+                            </div>
+                            
+                            <div class="rsvpbody">
+                                Real ID: Sneww#1110
+                                <br><br>
+                                Alternate Characters:<br>
+                                <div class="altcharleft" style="color: #8462A9">Kamel</div> 
+                                <div class="altcharright" style="color: #E9E9E9">Swhugs</div>
+                            </div>
+                        </div>
+                        
+                        <div id="contTore" class="contact">
+                            <div id="tore" class="upswipe">
+                            </div>
+                            
+                            <div class="rsvphead">
+                                Torethirnyi
+                            </div>
+                            <div class="rsvptitle">
+                                Officer
+                            </div>
+                            
+                            <div class="rsvpbody">
+                                Real ID: Torethirnyi#1480
+                                <br><br>
+                                Alternate Characters:<br>
+                                <div class="altcharleft" style="color: #C79C6E">Torrior</div> 
+                                <div class="altcharright" style="color: #00FF96">Torero</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div id="contactlinkscontainer">
+                        <div id="dropusaline">Or drop us a line on our:</div>
+                        <div id="botforum"><a href="http://conviction.omgforum.net" target="_blank" class="cont contwoosh">Forum</a></div>
+                        <div id="botfacebook"><a href="https://www.facebook.com/convictedkorgath" target="_blank" class="cont contwoosh">Facebook</a></div>
+                        <div id="botemail"><a href="mailto:convictedguild@gmail.com?Subject=I%20would%20like%20to%20know%20more" target="_blank" class="cont contwoosh">Email</a></div>
+                    </div>
+                    <a href="#banner"><img id="footerlogo" src="/images/footerlogo.png" /></a>
+                    <br>
+                    <a class="mobile" href="http://m.convictedguild.com"><div id="mobilelink">Take me to the mobile site</div></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="preload">
+            <img src="/portraits/joinus.jpg" width="0" height="0" alt="image 01" />
+            <img src="/portraits/sneww_large.jpg" width="0" height="0" alt="image 02" />
+            <img src="/portraits/zoidberg_large.jpg" width="0" height="0" alt="image 03" />
+            <img src="/portraits/nartuus_large.jpg" width="0" height="0" alt="image 04" />
+            <img src="/portraits/shamd_large.jpg" width="0" height="0" alt="image 06" />
+            <img src="/portraits/tyg_large.jpg" width="0" height="0" alt="image 07" />
+            <img src="/portraits/arhan_large.jpg" width="0" height="0" alt="image 08" />
+            <img src="/portraits/dknoobs_large.jpg" width="0" height="0" alt="image 09" />
+            <img src="/portraits/tore_large.jpg" width="0" height="0" alt="image 10" />
+            <img src="/portraits/yoek_large.jpg" width="0" height="0" alt="image 12" />
+            <img src="/portraits/teeze_large.jpg" width="0" height="0" alt="image 13" />
+            <img src="/portraits/blue_large.jpg" width="0" height="0" alt="image 14" />
+            <img src="/portraits/brace_large.jpg" width="0" height="0" alt="image 15" />
+            <img src="/portraits/angryz_large.jpg" width="0" height="0" alt="image 16" />
+            <img src="/portraits/maltheius_large.jpg" width="0" height="0" alt="image 17" />
+            <img src="/portraits/goodlock_large.jpg" width="0" height="0" alt="image 18" />
+            <img src="/portraits/cyntech_large.jpg" width="0" height="0" alt="image 19" />
+            <img src="/portraits/kame_large.jpg" width="0" height="0" alt="image 20" />
+            <img src="/portraits/erbear_large.jpg" width="0" height="0" alt="image 21" />
+            <img src="/portraits/hamsteak_large.jpg" width="0" height="0" alt="image 22" />
+            <img src="/portraits/awna_large.jpg" width="0" height="0" alt="image 23" />
 
-<script>
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $("body,html").animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-$(window).scroll(function() {
-    if ($(window).scrollTop() > 350) {
-        $('#up').fadeIn(750);
-    }
-    else {
-        $('#up').fadeOut(250);
-    }
-});
-
-</script>
-
-<div style="position: absolute;">
-
-
-<div id="banner" style="position: absolute; width: 100%; top: 0px; z-index: 0; margin-bottom: -200px">
-  <div style="height: 150px; background: #FFFFFF; color: #555555; margin: 0px; padding-left: 10vw; box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);">
-  
-  <a href="/" class="home">
-  <div style="float: left; position: absolute; top: -3px; margin-left: -50px;"><img src="images/modernsquareSMALL.png"></img></div>
-  <div style="width: 350px; margin-right: 60%; height: 150px; display: inline-block; margin-top: -15px; ">
-  <div style="display: inline-block; padding-right: 10px; padding-left: 140px;">
-  <div style="font-size: 500%; font-weight: 300; margin-top: 10px; font-family: Oswald;">&lt;Convicted&gt;</div>
-  
-  <div style="padding-left: 26px; font-size: 150%; margin-top: -10px; font-weight: 300;">
-  <div style="display: inline-block; margin-right: 25px">Horde</div>
-  <div style="display: inline-block;">Korgath</div>
-  <div style="display: inline-block; margin-left: 25px;">8/10H</div>
-  </div>
-  </div>
-  </div>
-  </a>
-  
-  <div style="float: right; margin-right: 6vw; display: inline-block; margin-top: -83px; font-weight: 300; font-size: 190%; font-family: Raleway;">
-  <div style="background-color: #FFFFFF; height: 43px; width: 130px; display: inline-block; margin-left: 10px; text-align: center; padding-top: 10px; padding-bottom: 3px;">
-      <a href="http://conviction.omgforum.net/forum" class="nav woosh">Forum</a>
-  </div>
-  
-    <div style="background-color: #FFFFFF; height: 43px; width: 130px; display: inline-block; margin-left: -16px; text-align: center; padding-top: 10px; padding-bottom: 3px;">
-      <a href="https://www.warcraftlogs.com/guilds/22927/" class="nav woosh">Logs</a>
-  </div>
-  
-    <div style="background-color: #FFFFFF; height: 43px; width: 145px; display: inline-block; margin-left: -25px; text-align: center;  padding-top: 10px; padding-bottom: 3px;">
-      <a href="#slide3" class="nav woosh">Apply</a>
-  </div>
-  
-    <div style="background-color: #FFFFFF; height: 43px; width: 130px; display: inline-block; margin-left: -5px; text-align: center;  padding-top: 10px; padding-bottom: 3px;">
-      <a href="#slide4" class="nav woosh">Contact</a>
-  </div>
-  
-  </div>
-  
-  </div>
-
-  
-  
-</div>
-
-
-<div style="margin-top: 150px;">
-
-<div id="title" class="slide header"></div>
-
-<div id="slide1" class="slide" style="padding: 20vh 6%;">	
-
-  <div class="title" style="display: table-cell;">  
-    <h1>We are Convicted</h1>
-    <p>Six years ago a group of strangers came together to kill bosses and have fun. We climbed the ranks of a competitive realm and fought for prestige and glory, earning our highest accolade of a US Top 40 kill. Through the years these strangers became friends, and the guild became a home. Half a decade later, we continue to forge ahead with the same objective in mind: to kill bosses, and to have fun.</p>
-  </div>
-  
-  <div style="display: table-cell; width: 35vw; margin-bottom: 30vh; padding-left: 6vw; padding-top: 3vh;"> 
-  
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/teeze_large.jpg&quot; class=&quot;portfit&quot; />','/captions/teeze');"><div class="portrait druid" style="background-image: url('portraits/teeze_troll.png');"><div class="portname">Teeze</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/zoidberg_large.jpg&quot; class=&quot;portfit&quot; />','/captions/zoidberg');"><div class="portrait monk" style="background-image: url('portraits/zoidberg_undead.png');"><div class="portname">Zoidberg</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/tore_large.jpg&quot; class=&quot;portfit&quot; />','/captions/tore');"><div class="portrait sham" style="background-image: url('portraits/tore_orc.png');"><div class="portname">Tore</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/sneww_large.jpg&quot; class=&quot;portfit&quot; />','/captions/sneww');"><div class="portrait mag" style="background-image: url('portraits/sneww_belf.png');"><div class="portname">Sn&euml;ww</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/maltheus_large.jpg&quot; class=&quot;portfit&quot; />','/captions/maltheus');"><div class="portrait pal" style="background-image: url('portraits/mal_belf.png');"><div class="portname">Maltheus</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/brace_large.jpg&quot; class=&quot;portfit&quot; />','/captions/brace');"><div class="portrait pri" style="background-image: url('portraits/brace_goblin.png');"><div class="portname">Br&aring;ce</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/erbear');"><div class="portrait monk" style="background-image: url('portraits/erbear_undead.png');"><div class="portname">Erbear</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/banga_large.jpg&quot; class=&quot;portfit&quot; />','/captions/banga');"><div class="portrait pal" style="background-image: url('portraits/banga_tau.png');"><div class="portname">Banga</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/kame');"><div class="portrait pri" style="background-image: url('portraits/kame_belf.png');"><div class="portname">Kame</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/tyg_large.jpg&quot; class=&quot;portfit&quot; />','/captions/tygrendal');"><div class="portrait dk" style="background-image: url('portraits/tyg_orc.png');"><div class="portname">Tyg</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/ocius_large.jpg&quot; class=&quot;portfit&quot; />','/captions/ocius');"><div class="portrait monk" style="background-image: url('portraits/ocius_orc.png');"><div class="portname">Ocius</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/shamd_large.jpg&quot; class=&quot;portfit&quot; />','/captions/shamd');"><div class="portrait sham" style="background-image: url('portraits/shamd_tau.png');"><div class="portname">Shamd</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/blue_large.jpg&quot; class=&quot;portfit&quot; />','/captions/thecolorblue');"><div class="portrait monk" style="background-image: url('portraits/blue_panda.png');"><div class="portname">Blue</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/dknoobs_large.jpg&quot; class=&quot;portfit&quot; />','/captions/dknoobs');"><div class="portrait dk" style="background-image: url('portraits/dknoobs_orc.png');"><div class="portname">Dknoobs</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/goodlock_large.jpg&quot; class=&quot;portfit&quot; />','/captions/goodlock');"><div class="portrait lock" style="background-image: url('portraits/goodlock_orc.png');"><div class="portname">Goodl&ocirc;ck</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/yoek_large.jpg&quot; class=&quot;portfit&quot; />','/captions/yoek');"><div class="portrait war" style="background-image: url('portraits/yoek_orc.png');"><div class="portname">Yoek</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/nartuus_large.jpg&quot; class=&quot;portfit&quot; />','/captions/nartuus');"><div class="portrait mag" style="background-image: url('portraits/nartuus_troll.png');"><div class="portname">Nartuus</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/arhan_large.jpg&quot; class=&quot;portfit&quot; />','/captions/arhan');"><div class="portrait hunt" style="background-image: url('portraits/arhan_belf.png');"><div class="portname">Arhan</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/angryz_large.jpg&quot; class=&quot;portfit&quot; />','/captions/angryz');"><div class="portrait war" style="background-image: url('portraits/angryz_orc.png');"><div class="portname">Angryz</div></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/test.html');"><div class="portrait" style="background-image: url('portraits/malesil2.png');"></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/test.html');"><div class="portrait" style="background-image: url('portraits/malesil1.png');"></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/test.html');"><div class="portrait" style="background-image: url('portraits/femalesil1.png');"></div></a>
-	  <a href="javascript:lightbox('<img src=&quot;/portraits/testbanana.png&quot; class=&quot;portfit&quot; />','/captions/test.html');"><div class="portrait" style="background-image: url('portraits/malesil2.png');"></div></a>
-  
-  </div>
-  
-</div>
-
-<div id="slide2" class="slide" style="padding: 20vh 10%">
-  <div class="title">
-	<h1>Progression on a casual schedule</h1>
-    <p>Sacrificing your weeknights and putting in endless hours of progression for a chance at realm-first? We've been there, done that, and frankly we don't miss it. Today we raid on a two day schedule for a mere seven hours per week. Think it's not enough time to progress? We'll prove you wrong.</p>
-	
-	<div style="width: 100%; margin-left: 25%; margin-top: 30px; margin-bottom: -2vh;">
-	  <table style="font-size: 130%;">
-	    <tr>
-		  <td style="padding-right: 40px; font-family: Raleway; font-weight: 600">Tuesday</td>
-		  <td>7:30pm-10:30pm CST</td>
-		</tr>
-	    <tr>
-		  <td style="padding-right: 40px; font-family: Raleway; font-weight: 600">Sunday</td>
-		  <td>6:30pm-10:30pm CST</td>
-		</tr>
-	  </table>
-	</div>
-  </div>
-</div>
-
-<div id="slide3" class="slide">
-<div style="float: right;">
-<div style="padding-top: 0.3vh; margin-right: 1.5vw; background-color: #E6E6E6; margin-top: 1.5vh; padding-bottom: 0.3vh; border-radius: 5px; box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
-	<div style="text-align: center; font-family: Oswald; margin-bottom: 1.75vh; font-size: 200%;">Openings</div>
-    <table style="font-size: 125%; border-collapse: collapse; width: 374px;">
-    <tr class="wow">
-        <td class="dk wow" style="padding-right: 20px">Death Knight:</td>
-        <td class="wow">---</td>
-    </tr>
-    <tr class="wow">
-        <td class="druid wow">Druid:</td>
-        <td class="wow">Feral, Balance, Resto</td>
-    </tr>
-    <tr class="wow">
-        <td class="hunt wow">Hunter:</td>
-        <td>---</td>
-    </tr>
-    <tr class="wow">
-        <td class="mag wow">Mage:</td>
-        <td class="wow">---</td>
-    </tr>
-    <tr class="wow">
-        <td class="monk wow">Monk:</td>
-        <td class="wow">Windwalker</td>
-    </tr>
-    <tr class="wow">
-        <td class="pal wow">Paladin:</td>
-        <td>Retribution</td>
-    </tr>
-    <tr class="wow">
-        <td class="pri wow">Priest:</td>
-        <td class="wow">Heal w/ DPS OS</td>
-    </tr>
-    <tr class="wow">
-        <td class="rog wow">Rogue:</td>
-        <td>Open</td>
-    </tr>
-    <tr>
-        <td class="sham wow">Shaman:</td>
-        <td class="wow">Open</td>
-    </tr>
-    <tr class="wow">
-        <td class="lock wow">Warlock:</td>
-        <td class="wow">Open</td>
-    </tr>
-    <tr class="wow">
-        <td class="war wow">Warrior:</td>
-        <td class="wow">Fury</td>
-    </tr>
-</table>
-</div>
-
-<a href="/application/app.php" style="text-decoration: none;"><div class="btn" style="margin-left: 0px; margin-top: 2vh;">Apply!</div></a>
-
-</div>
-
-  <div class="title">
-    <h1>Join our family</h1>
-    <p>If you join us you won't find a group of strangers strung together from trade chat, you'll find a group of friends that have progressed together for years. We have the skills to advance through challenging content and the experience to guide us forward. And the best part of our family is that there's always room for more.</p>
-  </div>
-</div>
-
-<div id="slide4" class="slide header">
-    <h1 style="margin-top: -20vh; font-weight: 300">Contact Us</h1>
-	
-	<div class="gridcontain">
-	
-		<div id="contTeeze" class="contact">
-			<div id="teeze" class="upswipe">
-			</div>
-			
-			<div class="rsvphead">
-				Teeze
-			</div>
-			<div class="rsvptitle">
-				GM
-			</div>
-			
-			<div class="rsvpbody">
-			Real ID: Teeze#1321
-			<br><br>
-			Alternate Characters:<br>
-			<div style="display: inline-block; color: #CCC">Sainne</div>
-			</div>
-		</div>
-	
-		<div id="contZoid" class="contact">
-			<div id="zoid" class="upswipe">
-			</div>
-			
-			<div class="rsvphead">
-				Zoidberg
-			</div>
-			<div class="rsvptitle">
-				Co-GM
-			</div>
-			
-			<div class="rsvpbody">
-			Real ID: Shinebox#1762
-			<br><br>
-			Alternate Characters:<br>
-			<div style="display: inline-block; color: #E9E9E9">Shynebox</div>
-			</div>
-		</div>
-	
-		<div id="contSneww" class="contact">
-			<div id="sneww" class="upswipe">
-			</div>
-			
-			<div class="rsvphead">
-				Sn&euml;ww
-			</div>
-			<div class="rsvptitle">
-				Officer
-			</div>
-			
-			<div class="rsvpbody">
-			Real ID: Sneww#1110
-			<br><br>
-			Alternate Characters:<br>
-			<div style="display: inline-block; padding-right: 5px; color: #8462A9">Kamel</div> <div style="display: inline-block; color: #E9E9E9">Swhugs</div>
-			</div>
-		</div>
-	
-		<div id="contTore" class="contact">
-			<div id="tore" class="upswipe">
-			</div>
-			
-			<div class="rsvphead">
-				Torethirnyi
-			</div>
-			<div class="rsvptitle">
-				Officer
-			</div>
-			
-			<div class="rsvpbody">
-			Real ID: Torethirnyi#1480
-			<br><br>
-			Alternate Characters:<br>
-			<div style="display: inline-block; padding-right: 5px; color: #C79C6E">Torrior</div> <div style="display: inline-block; color: #00FF96">Torero</div>
-			</div>
-			
-		</div>
-	</div>
-	
-	<div style="font-family: Raleway; height: 105px;">
-		<div style="margin-top: 5vh; margin-bottom: 5vh;">Or drop us a line on our:</div>
-			<div style="margin-right: 4vw; display: inline-block;"><a href="http://conviction.omgforum.net" target="_blank" class="cont contwoosh">Forum</a></div>
-			<div style="margin-right: 5vw; display: inline-block;"><a href="https://www.facebook.com/convictedkorgath" target="_blank" class="cont contwoosh">Facebook</a></div>
-			<div style="display: inline-block;"><a href="mailto:convictedguild@gmail.com?Subject=I%20would%20like%20to%20know%20more" target="_blank" class="cont contwoosh">Email</a></div>
-	</div>
-	<a href="#banner"><img id="footerlogo" src="/images/footerlogo.png" /></a>
-	
-</div>
-</div>
-</div>
-
-<div id="preload">
-  <img src="/portraits/testbanana.png" width="0" height="0" alt="image 01" />
-  <img src="/portraits/sneww_large.jpg" width="0" height="0" alt="image 02" />
-  <img src="/portraits/zoidberg_large.jpg" width="0" height="0" alt="image 03" />
-  <img src="/portraits/nartuus_large.jpg" width="0" height="0" alt="image 04" />
-  <img src="/portraits/banga_large.jpg" width="0" height="0" alt="image 05" />
-  <img src="/portraits/shamd_large.jpg" width="0" height="0" alt="image 06" />
-  <img src="/portraits/tyg_large.jpg" width="0" height="0" alt="image 07" />
-  <img src="/portraits/arhan_large.jpg" width="0" height="0" alt="image 08" />
-  <img src="/portraits/dknoobs_large.jpg" width="0" height="0" alt="image 09" />
-  <img src="/portraits/tore_large.jpg" width="0" height="0" alt="image 10" />
-  <img src="/portraits/ocius_large.jpg" width="0" height="0" alt="image 11" />
-  <img src="/portraits/yoek_large.jpg" width="0" height="0" alt="image 12" />
-  <img src="/portraits/teeze_large.jpg" width="0" height="0" alt="image 13" />
-  <img src="/portraits/blue_large.jpg" width="0" height="0" alt="image 14" />
-  <img src="/portraits/brace_large.jpg" width="0" height="0" alt="image 15" />
-  <img src="/portraits/angryz_large.jpg" width="0" height="0" alt="image 16" />
-  <img src="/portraits/maltheus_large.jpg" width="0" height="0" alt="image 17" />
-  <img src="/portraits/goodlock_large.jpg" width="0" height="0" alt="image 18" />
-  
-</div>
-
-<a href="#banner"><div id="up"><img src="/images/up.png" style="width: 3vw; height: 3vw; max-width: 45px; max-height: 45px;"></img></div></a>
-
-</body>
+        </div>
+        <a href="#banner"><div id="up"><img src="/images/up.png"></img></div></a>
+    </body>
 </html>
