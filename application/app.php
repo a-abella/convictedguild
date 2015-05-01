@@ -136,7 +136,7 @@ function test_input($data) {
     </h2><hr>
       If you're here it's because you want to raid with us. First we have to know if you can.<br><br><hr>
     
-    <div style="font-size: 125%; font-weight: bold;">We raid Tuesday 7:30pm-11:30pm CST and Sunday 6:30pm-11:30pm CST.</div><hr>
+    <div style="font-size: 125%; font-weight: bold;">We raid Tuesday 7:30pm-10:30pm CST and Sunday 6:30pm-10:30pm CST.</div><hr>
     <table>
       <tr>
         <td>Can you typically make these raid times without issue?</td>
